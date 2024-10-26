@@ -47,4 +47,4 @@ if st.button("hesapla"):
         labels = {0: "Olumlu", 1: "Tarafsız", 2: "Olumsuz"}
         st.write(f"Sonuç: {labels[prediction[0]]}")
     else:
-        st.write("Lütfen bir görüş yazın.")
+        
