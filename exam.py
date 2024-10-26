@@ -34,9 +34,9 @@ xTrain, xTest, yTrain, yTest = train_test_split(x, y, test_size=0.2, random_stat
 rf = RandomForestClassifier(n_estimators=100, random_state=45)
 rf.fit(xTrain, yTrain)
 
-st.title("Duygu Analizi Uygulaması")
+st.title("Deneme")
 
-user_input = st.text_area("Görüşünüzü buraya yazın:", "")
+user_input = st.text_area("", "")
 
 if st.button("hesapla"):
     if user_input:
