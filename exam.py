@@ -30,8 +30,7 @@ x = spaceMatrix
 y = data["Durum"].values
 xTrain, xTest, yTrain, yTest = train_test_split(x, y, test_size=0.2, random_state=33)
 
-
-rf = RandomForestClassifier(n_estimators=100, random_state=45)
+rf = RandomForestClassifier(n_estimators=200, random_state=33)
 rf.fit(xTrain, yTrain)
 
 st.title("Deneme")
